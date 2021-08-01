@@ -118,6 +118,10 @@ p {
     gap: 15px;
 }
 
+.product:not(.product_on-sale) .product__price_striked {
+    display: none;
+}
+
 .product__price_striked {
     text-decoration: line-through;
 }
